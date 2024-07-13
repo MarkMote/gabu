@@ -34,7 +34,7 @@ export default function ClientPage() {
                 Meet Gabù, the fiesty poodle
               </h1>
               <p className="max-w-[600px] text-sm sm:text-base lg:text-xl text-muted-foreground">
-                Gabù is a 6-month-old poodle who loves to bite people and go on walks. 
+                Gabù is a 6-month-old poodle who loves to bite and go on walks. 
                 He's great on planes, he can disobey in 6 languages, and he's looking for a loving home.
               </p>
             </div>
@@ -83,7 +83,7 @@ export default function ClientPage() {
             <div className="flex flex-col items-center lg:items-start space-y-6 text-center lg:text-left">
               <div className="inline-block rounded-lg bg-muted px-3 py-1 font-medium text-sm lg:pt-0 pt-4">About Gabu</div>
               <p className="mx-auto lg:mx-0 max-w-[700px] text-sm sm:text-base lg:text-xl/relaxed text-muted-foreground text-slate-600">
-                Gabù is a pure-bred poodle. He used to belong to an NBA player. He's a bit of a diva, but he's also very loving and loyal.
+                Gabù is a pure-bred poodle. He used to belong to an NBA player. He's a fan of Russian literature. He's a bit of a diva, but he's also very loving and loyal.
               </p>
               <a
                 href="#"
@@ -102,7 +102,7 @@ export default function ClientPage() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center pb-12">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">More About Gabù</div>
-              <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl lg:text-5xl py-4">Title for more about Gabù</h2>
+              <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl lg:text-5xl py-4">A lovable and yappy little poodle</h2>
               <p className="max-w-[900px] text-sm sm:text-base lg:text-xl/relaxed pb-2 text-muted-foreground">
                 Gabù answers to many names, including little monster, punk, and beastie. Unfortunately if he's not adopted soon, he will be sent to work in the coal mines.
               </p>
