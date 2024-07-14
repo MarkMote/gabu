@@ -34,7 +34,7 @@ export default function ClientPage() {
                 Meet Gabù, the fiesty poodle
               </h1>
               <p className="max-w-[600px] text-sm sm:text-base lg:text-xl text-muted-foreground">
-                Gabù is a 6-month-old poodle who loves to bite and go on walks. 
+                Gabù is a 6-month-old poodle who loves to dress up and go on walks. 
                 He's great on planes, he can disobey in 6 languages, and he's looking for a loving home.
               </p>
             </div>
@@ -45,7 +45,7 @@ export default function ClientPage() {
               </div>
               <div className="flex items-center gap-4">
                 <CalendarIcon className="h-5 w-5 lg:h-6 lg:w-6" />
-                <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">Age: 6 months old</p>
+                <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">Age: 6 months </p>
               </div>
               <div className="flex items-center gap-4">
                 <HeartIcon className="h-5 w-5 lg:h-6 lg:w-6" />
