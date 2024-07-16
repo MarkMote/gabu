@@ -37,8 +37,8 @@ export default function ClientPage() {
                 Meet Gabù, the fiesty poodle
               </h1>
               <p className="max-w-[600px] text-sm sm:text-base lg:text-xl text-muted-foreground">
-                Gabù is a 6-month-old poodle who loves to dress up and go on walks. 
-                He's great on planes, he can disobey in 6 languages, and he's looking for a loving home.
+                Gabù is a 8-month-old poodle who loves to dress up and go on walks. He's great on planes, 
+                he can disobey in 6 languages, and he's looking for a loving home.
               </p>
             </div>
             <div className="grid gap-1 md:gap-4 py-4">
@@ -93,7 +93,8 @@ export default function ClientPage() {
             <div className="flex flex-col items-center lg:items-start space-y-6 text-center lg:text-left">
               <div className="inline-block rounded-lg bg-muted px-3 py-1 font-medium text-sm lg:pt-0 pt-4">About Gabu</div>
               <p className="mx-auto lg:mx-0 max-w-[700px] text-sm sm:text-base lg:text-xl/relaxed text-muted-foreground text-slate-600">
-                Gabù is a pure-bred miniature poodle. He's around 12 pounds and almost done growing. 
+                Gabù is a pure-bred miniature poodle (~12lbs). He's fully vaccinated.  
+                He is a bit territorial and can be anxious at times, but very sweet. 
                 He's currently splitting his time between San Francisco and New York. 
                 He's looking for a stable living environment that involves less travel and more consistency.
                 We're happy to fly him out to the right home!  
@@ -117,8 +118,8 @@ export default function ClientPage() {
               <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">More About Gabù</div>
               <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl lg:text-5xl py-4">A lovable and yappy little poodle</h2>
               <p className="max-w-[900px] text-sm sm:text-base lg:text-xl/relaxed pb-2 text-muted-foreground">
-                Gabù answers to many names, including little monster, punk, and beastie. 
-                He used to belong to an NBA player (really). He's a fan of Russian literature. 
+                Gabù answers to many names, including little monster, and beastie. 
+                He used to belong to an NBA player. He's a fan of Russian literature. 
                 He's a bit of a diva, but he's also very loving and loyal. 
                 Unfortunately if he's not adopted soon, he will be sent to work in the coal mines.
               </p>
@@ -131,6 +132,9 @@ export default function ClientPage() {
             <Image src="/g4.jpeg" alt="Image 4" width={600} height={600} className="w-full h-[500px] sm:h-[500px] lg:h-[600px] rounded-lg object-cover" />
             <Image src="/g5.jpeg" alt="Image 5" width={600} height={600} className="w-full h-[500px] sm:h-[500px] lg:h-[600px] rounded-lg object-cover" />
             <Image src="/g6.jpeg" alt="Image 6" width={600} height={600} className="w-full h-[500px] sm:h-[500px] lg:h-[600px] rounded-lg object-cover" />
+            <Image src="/g12.JPG" alt="Image 4" width={600} height={600} className="w-full h-[500px] sm:h-[500px] lg:h-[600px] rounded-lg object-cover" />
+            <Image src="/g13.JPG" alt="Image 5" width={600} height={600} className="w-full h-[500px] sm:h-[500px] lg:h-[600px] rounded-lg object-cover" />
+            <Image src="/g14.png" alt="Image 6" width={600} height={600} className="w-full h-[500px] sm:h-[500px] lg:h-[600px] rounded-lg object-cover" />
           </div>
         </div>
       </section>
