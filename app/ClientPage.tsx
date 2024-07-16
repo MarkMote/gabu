@@ -5,7 +5,7 @@
 import React, { useRef } from 'react'
 import Image from 'next/image'
 import { Adopt } from './Adopt'
-import { PawPrintIcon, CalendarIcon, HeartIcon } from './Icons'
+import { PlaneIcon, PawPrintIcon, CalendarIcon, HeartIcon } from './Icons'
 
 export default function ClientPage() {
   const adoptFormRef = useRef<HTMLElement>(null)
@@ -41,15 +41,21 @@ export default function ClientPage() {
             <div className="grid gap-1 md:gap-4 py-4">
               <div className="flex items-center gap-4">
                 <PawPrintIcon className="h-5 w-5 lg:h-6 lg:w-6" />
-                <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">Breed: Poodle</p>
+                <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">Breed: Miniature poodle</p>
               </div>
               <div className="flex items-center gap-4">
                 <CalendarIcon className="h-5 w-5 lg:h-6 lg:w-6" />
-                <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">Age: 6 months </p>
+                <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">Age: 8 months </p>
               </div>
               <div className="flex items-center gap-4">
                 <HeartIcon className="h-5 w-5 lg:h-6 lg:w-6" />
                 <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">Temperament: Energetic, 98% friendly 2% grouchy</p>
+              </div>
+              <div className="flex items-center gap-4">
+                <PlaneIcon className="h-5 w-5 lg:h-6 lg:w-6" />
+                <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">
+                  Location: SF, NYC (willing to travel)
+                </p>
               </div>
             </div>
             <a
@@ -83,7 +89,10 @@ export default function ClientPage() {
             <div className="flex flex-col items-center lg:items-start space-y-6 text-center lg:text-left">
               <div className="inline-block rounded-lg bg-muted px-3 py-1 font-medium text-sm lg:pt-0 pt-4">About Gabu</div>
               <p className="mx-auto lg:mx-0 max-w-[700px] text-sm sm:text-base lg:text-xl/relaxed text-muted-foreground text-slate-600">
-                Gabù is a pure-bred poodle. He used to belong to an NBA player. He's a fan of Russian literature. He's a bit of a diva, but he's also very loving and loyal.
+                Gabù is a pure-bred miniature poodle. He's around 12 pounds and almost done growing. 
+                He's currently splitting his time between San Francisco and New York. 
+                He's looking for a stable living environment that involves less travel and more consistency.
+                We're happy to fly him out to the right home!  
               </p>
               <a
                 href="#"
@@ -104,7 +113,10 @@ export default function ClientPage() {
               <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">More About Gabù</div>
               <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl lg:text-5xl py-4">A lovable and yappy little poodle</h2>
               <p className="max-w-[900px] text-sm sm:text-base lg:text-xl/relaxed pb-2 text-muted-foreground">
-                Gabù answers to many names, including little monster, punk, and beastie. Unfortunately if he's not adopted soon, he will be sent to work in the coal mines.
+                Gabù answers to many names, including little monster, punk, and beastie. 
+                He used to belong to an NBA player (really). He's a fan of Russian literature. 
+                He's a bit of a diva, but he's also very loving and loyal. 
+                Unfortunately if he's not adopted soon, he will be sent to work in the coal mines.
               </p>
             </div>
           </div>
