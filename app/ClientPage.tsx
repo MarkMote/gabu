@@ -17,8 +17,11 @@ export default function ClientPage() {
 
   return (
     <div className="flex flex-col min-h-[100dvh] bg-white text-slate-800 text-center items-center justify-center">
-      <section className="w-full py-0 my-0 md:py-12 lg:py-24 bg-gradient-to-b from-slate-50 to-slate-100 mx-auto min-h-screen flex items-center justify-center">
-        <div className="container mx-auto grid gap-0 lg:h-[80dvh] md:grid-cols-2 lg:gap-12 md:bg-gradient-to-br md:from-red-100 md:to-rose-100 md:border-none bg-rose-100/10 md:p-0 md:m-0 px-0 mx-4 py-4 pt-0 my-4 rounded-xl">
+      <section className="w-full py-0 my-0 md:py-12 lg:py-24 bg-gradient-to-b from-slate-50 to-slate-100 mx-auto min-h-screen
+       flex items-center justify-center ">
+        <div className="container mx-auto grid gap-0 lg:h-[80dvh] md:grid-cols-2 lg:gap-12 md:bg-gradient-to-br 
+        md:from-red-100 md:to-rose-100 md:border-none bg-rose-100/10 md:p-0 md:m-0 px-0 mx-4 py-4 pt-0 sm:my-4 my-0 rounded-xl
+        md:h-[600px] h-screen">
           <div className="lg:h-[80dvh] md:h-[600px] h-[50dvh] md:rounded-l-xl rounded-t-xl overflow-hidden">
             <Image
               src="/g7.jpeg"
@@ -65,10 +68,11 @@ export default function ClientPage() {
               bg-rose-300 shadow-lg 
                px-4 sm:px-6 lg:px-8 text-base sm:text-lg lg:text-xl text-slate-900 font-semibold  
               hover:bg-rose-300/90 focus-visible:outline-rose focus-visible:ring-1 focus-visible:ring-ring 
-              disabled:pointer-events-none disabled:opacity-50"
+              disabled:pointer-events-none disabled:opacity-50 "
             >
               Adopt Me! 
             </a>
+            <div className='pb-5 sm:pb-1'> </div>
           </div>
         </div>
       </section>
