@@ -33,6 +33,11 @@ export default function ClientPage() {
           </div>
           <div className="flex flex-col justify-center space-y-2 text-left px-5 lg:mr-12 py-10">
             <div className="md:space-y-6 space-y-4">
+              <div className="inline-block rounded-lg bg-muted px-3 py-1 text-lg font-bold text-red-500 bg-white text-center w-full">
+              <div>UPDATE: <span className='font-normal'>Gabù has found a new home!</span></div> 
+              <div className='font-normal'>Thank you all for your interest!</div>  
+              <div>✨🐾🏡🎉 </div>  
+            </div>
               <h1 className="text-2xl sm:text-3xl lg:text-5xl xl:text-6xl/none font-bold tracking-tighter">
                 Meet Gabù, the fiesty poodle
               </h1>
